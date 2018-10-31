@@ -1,0 +1,46 @@
+{
+  "name": "retrotool-design-system",
+  "version": "1.0.0",
+  "description": "Design System for Retrotool",
+  "main": "entry.js",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/u2i/retrotool-design-system.git"
+  },
+  "keywords": [
+    "retrotool",
+    "design",
+    "system"
+  ],
+  "author": "quirk0o",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/u2i/retrotool-design-system/issues"
+  },
+  "homepage": "https://github.com/u2i/retrotool-design-system#readme",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "styled-components": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@storybook/addon-actions": "^4.0.2",
+    "@storybook/addon-links": "^4.0.2",
+    "@storybook/addons": "^4.0.2",
+    "@storybook/react": "^4.0.2",
+    "babel-loader": "^8.0.4",
+    "husky": "^1.1.2",
+    "precise-commits": "^1.0.2",
+    "prettier": "^1.14.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "precise-commits"
+    }
+  }
+}
